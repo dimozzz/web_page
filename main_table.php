@@ -5,7 +5,7 @@
 		</td>
 		<td>
 			<div align = center> <h3>Dmitry Sokolov</h3> </div>
-			Research interests: computational complexity, criptography, combinatorics, mathematical logic
+			Research interests: computational complexity, cryptography, combinatorics, mathematical logic
 		</td>
 	</tr>
 </table>
@@ -16,11 +16,12 @@
 			<ul>
 				<li><a href="index.php">Main Page</a></li>
 				<li><a href="papers.php">Research Paper</a></li>
+				<li><a href="tasks">Teaching</a></li>
 				<li><a href="contacts.php">Contacts</a></li>
 			</ul>
 		</td>
 		<td>
-			<?php include($file_name); ?>
+			<?php include($filename); ?>
 		</td>
 	</tr>
 </table>

@@ -2,7 +2,9 @@
 
 <HTML>
 	<?php include("header.html"); ?>
-	
-	<?php $filename = "career.html">
-	<?php include("main_table.php"); ?>
+
+	<body>
+		<?php $filename = "career.html" ?>
+		<?php include("main_table.php"); ?>
+	</body>
 <HTML>

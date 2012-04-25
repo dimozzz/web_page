@@ -2,7 +2,9 @@
 
 <HTML>
 	<?php include("header.html"); ?>
-	
-	<?php $filename = "contacts.html">
-	<?php include("main_table.php"); ?>
+
+	<body>
+		<?php $filename = "contacts.html" ?>
+		<?php include("main_table.php"); ?>
+	</body>
 <HTML>
