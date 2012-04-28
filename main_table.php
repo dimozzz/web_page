@@ -14,10 +14,10 @@
 	<tr>
 		<td width = 15%>
 			<ul>
-				<li><a href="index.php">Main Page</a></li>
-				<li><a href="papers.php">Research Paper</a></li>
-				<li><a href="tasks">Teaching</a></li>
-				<li><a href="contacts.php">Contacts</a></li>
+				<li><p><a href="index.php">Main Page</a></p></li>
+				<li><p><a href="papers.php">Research Papers</a></p></li>
+				<li><p><a href="tasks">Teaching</a></p></li>
+				<li><p><a href="contacts.php">Contacts</a></p></li>
 			</ul>
 		</td>
 		<td>
