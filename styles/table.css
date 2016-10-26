@@ -1,0 +1,186 @@
+@media all and (min-device-width: 1080px) {
+	.table {
+		margin-top: 30px;
+	}
+
+	.table-title {
+		border-top: 1px solid rgb(126, 149, 148);
+		font-weight: bold;
+		padding-top: 10px;
+		padding-bottom: 8px;
+	}
+
+	.table-title > a {
+		color: black;
+	}
+
+	.table > .data {
+		position: relative;
+	}
+
+	.table .name:first-of-type .name-title {
+		border-top: 2px solid rgb(126, 149, 148);
+	}
+
+	.table .name {
+		width: 255px;
+	}
+
+
+	.table .name-title {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+		border-top: 1px dotted rgb(126, 149, 148);
+		position: relative;
+	
+	}
+
+	.table .current-name > .name-title {
+		padding-left: 10px;
+		width: 235px;
+		background-color: #f7941e;
+		color: white;
+
+		border-top: 0 !important;
+	}
+
+	.table .current-name > .name-title:after {
+		content: "";
+		border-top: 18px solid transparent;
+		border-bottom: 18px solid transparent;
+		position: absolute;
+		border-left: 10px solid  #f7941e;
+		left: 245px;
+		bottom: 0px;
+	}
+
+	.table .current-name > .name-data {
+		display: block;
+	}
+
+	.table .name-data {
+		display: none;
+		position: absolute;
+ 		left: 275px;
+		top: 0;
+	}
+
+	.table .list-title:first-child {
+	         border-top: 2px solid rgb(126, 149, 148);
+	}
+
+	.table .list {
+		width: 255px;
+	}
+		
+	.table .list-title {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+		border-top: 1px dotted rgb(126, 149, 148);
+		position: relative;
+	}
+
+	.table .current-list-title {
+	        padding-left: 10px;
+	        width: 235px; 
+	        background-color: rgb(126, 149, 148);
+	        color: white;
+
+	        border-top: 0 !important;
+	}
+
+	.table .current-list-title:after {
+		content: "";
+		border-top: 18px solid transparent;
+		border-bottom: 18px solid transparent;
+		position: absolute;
+		border-left: 10px solid rgb(126, 149, 148);
+		left: 245px;
+		bottom: 0px;
+	}
+
+	.table .current-list-title + .list-title {
+		border-top: 0px !important;
+	}
+
+	.table .current-name + .name > .name-title {
+		border-top: 0px !important;
+	}
+
+
+
+	.table .list-data {
+	    display: none;
+	    position: absolute;
+	    left: 275px;
+	    top: 0;
+	    width: 530px;
+	    flex-wrap: wrap;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    border-top: 2px solid rgb(126, 149, 148);
+	}
+
+	.table .block-title {
+		font-weight: bold;
+		color: black;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-size: 12pt;
+	}
+	
+	.table .block-data {
+	    display: flex;
+	    width: 255px;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	}
+
+	.table .param:last-of-type {
+		border-bottom: 0;
+	}
+
+	.table .param {
+	    border-bottom: 1px dotted rgb(126, 149, 148);
+
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+
+	.table .subparam:last-of-type {
+		border-bottom: 0;
+	}
+	
+
+	.table .subparam {
+	    border-bottom: 1px dotted rgb(126, 149, 148);
+	
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	
+	    margin-left: 20px;
+	
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	}
+	
+	.next-current-list-title {
+		border-top: 0px !important;
+	}
+
+	.current-list > .list-data {
+	    display: flex;
+	}
+
+	.lists {
+	    width: 255px;
+	    margin-right: 20px;
+	}
+}

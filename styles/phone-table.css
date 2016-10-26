@@ -1,0 +1,211 @@
+@media screen and (max-device-width: 480px) {
+	.table .data{
+                display: none;
+        }
+
+        .table.show .data {
+                display: block;
+        }
+
+	.table .table-title {
+
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 0;
+		padding-right: 0;
+
+		margin-left: 4%;
+		margin-right: 4%;
+	
+		font-size: 50pt;
+		font-weight: bold;
+
+		color: #839494;
+		border-bottom: 2px dashed #839494;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.table .name {
+		background-color: white;
+	}
+
+	.table .name.current-name .name-title {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background-color: #839494;
+		color: white !important;
+		font-weight: bold;
+		font-size: 40pt;
+	}
+
+	.table .name-title {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 0;
+		padding-right: 0;
+
+		margin-left: 4%;
+		margin-right: 4%;
+
+		color: #839494;
+		border-bottom: 1px solid #839494;
+	}
+
+	.table .name.current-name {
+		background-color: #f9f7ec;
+		padding-bottom: 30px;
+	}
+
+	.table .name.current-name .lists {
+		background-color: #f9f7ec;
+	}
+
+
+	.table .current-name .name-title {
+		padding-left: 4%;
+		padding-right: 4%;
+                
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.table .current-name .name-data .lists {
+		display: block !important;
+	}
+
+	.table .name-data .lists {
+                display: none;
+        }
+
+	.table .name-data .list {
+		display: none;
+	}
+
+	
+	.table .table-title:after {
+                float: right;
+                content: "";
+                background-image: url(http://logic.pdmi.ras.ru/~knop/files/status.png);
+                width: 30px;
+                height: 30px;
+                display: block;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                margin-right: 20px;
+        }
+
+	.table.show .table-title:after {
+		transform: rotate(180deg);
+	}
+
+	.table.show .table-title a {
+		color: black;
+	}
+
+	.table.show .table-title {
+		border-bottom: 0;
+	}
+
+	.lists {
+                padding-left: 4%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+
+                border-bottom: 2px solid #839494;
+
+		background-color: white;
+		overflow-x: scroll;
+		overflow-y: hidden;
+		-webkit-overflow-scrolling: touch;
+		white-space: nowrap;
+		width: 96%;
+	}
+
+	.table .lists .list-title {
+		margin-right: 30px;
+                padding-left: 20px;
+                padding-right: 20px;	
+
+		display: inline;
+	}
+
+	.table .current-list-title {
+		border-radius: 60px;
+                color: white;
+                background-color: #839494;
+	}
+
+	.table .list.current-list {
+		display: flex !important;
+		flex-wrap: wrap;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	.table .list.current-list .list-data {
+		display: flex !important;
+                flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.table .list .block {
+		width: 48%;
+	}
+
+	.table .block-title {
+		font-weight: bold;
+		color: black;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+
+	.table .block-data {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.table .param {
+		border-bottom: 1px dotted rgb(126, 149, 148);
+		padding-top: 5px;
+ 		padding-bottom: 5px;
+ 		display: flex;
+ 		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.table .subparam {
+		border-bottom: 1px dotted rgb(126, 149, 148);
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-left: 20px;
+		display: flex;
+ 		flex-direction: row;
+		justify-content: space-between;
+		color: rgb(126, 149, 148);
+	}
+
+	.table .param:last-of-type {
+		border-bottom: 0;
+	}
+
+	.table .subparam:last-of-type {
+    		border-bottom: 0;
+	}
+
+	.table .block .param * {
+		color: #839494 !important;
+	}
+	.table .block .subparam * {
+		color: rgb(126, 149, 148) !important;
+	}
+
+}
+

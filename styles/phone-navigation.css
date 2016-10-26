@@ -1,0 +1,95 @@
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+	.section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 0;
+		padding-right: 0;
+
+		margin-left: 4%;
+		margin-right: 4%;
+	
+		font-size: 50pt;
+		font-weight: bold;
+
+		color: #839494;
+
+		border-bottom: 2px dashed #839494;
+	}
+
+	.section + *  {
+		background-color: white;
+                padding-top: 60px;
+                padding-bottom: 60px;
+	}
+
+	.section + * > * {
+		padding-left: 40px;
+		padding-bottom: 30px;
+	}
+
+	.section + .container > * > * > * {
+		padding-bottom: 30px;
+        }
+
+	.section + * > *:last-child {
+		padding-bottom: 0px;
+	}
+
+
+	.dropdown {
+		min-width: 100%;
+        }
+
+	.dropdown > .hide > *:nth-child(2){
+            display: none;
+        }
+	
+	ul.dropdown > .show > *:nth-child(1) {
+		font-weight: bold;
+	}
+
+	ul.dropdown > .show > *:nth-child(2){
+		list-style-type: disc;
+		color: #839494;
+	}
+	
+	ul.dropdown > * {
+		border-top: 2px dashed #839494;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	nav > .dropdown > .show > .section {
+		border-bottom: 0;
+		color: black;
+	}
+
+	.dropdown > * > *:first-child:after {
+		float: right;
+		content: "";
+		background-image: url(http://logic.pdmi.ras.ru/~knop/files/status.png);
+		width: 30px;
+		height: 30px;
+		display: block;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		margin-right: 20px;
+	}
+
+	.dropdown > .show > *:first-child:after {
+		transform: rotate(180deg);
+	}
+
+	.dropdown > * > *:first-child {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.hide-nav {
+		display: none
+	}
+}
+

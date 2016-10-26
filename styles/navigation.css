@@ -1,0 +1,34 @@
+@media all and (min-device-width: 480px) {
+	.section {
+		font-size: 19pt;
+		font-weight: bold;
+		
+		margin-top: 57px;
+		padding-bottom: 35px;
+
+		border-bottom: 1px solid #839494;
+	}
+
+	ul.dropdown > * > *:nth-child(1) {
+		cursor: pointer;
+	}
+
+	ul.dropdown > .show > *:nth-child(2){ 
+		display: block;
+	}
+
+	ul.dropdown > .hide > *:nth-child(2) {
+		display: none;
+	}
+
+	ul.dropdown > * > ul {
+	    list-style-type: none;
+	    padding-left: 10px;
+	}
+
+	ul.dropdown > * > ul > li {
+	    padding-top: 5px;
+	}
+}
+
+

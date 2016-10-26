@@ -1,0 +1,30 @@
+@media only screen and (max-device-width: 480px) {
+	header {
+		width: 100%;
+		
+		background-color: #839494;
+		color: #fcfbf6;
+
+		padding-top: 30px;
+		padding-bottom: 50px;  
+	}
+
+	header .userpic {
+		display: none;
+	}
+
+	header .name {
+		font-size: 80pt;
+		font-weight: bold;
+	}
+	.degree {
+		font-size: 50pt;
+		border-bottom: 3px solid  #fcfbf6;
+		padding-bottom: 30px;
+	}
+
+	.interests-header {
+		font-weight: bold;
+		padding-top: 30px;
+	}
+}

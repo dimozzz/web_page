@@ -1,10 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-
-<HTML>
-	<?php include("header.html"); ?>
-
-	<body>
-		<?php $filename = "career.html" ?>
-		<?php include("main_table.php"); ?>
-	</body>
-<HTML>
+<?php
+	include("include/construct.php");
+	start_page(1);
+	end_page();
+?>

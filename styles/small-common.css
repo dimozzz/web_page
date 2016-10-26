@@ -1,0 +1,21 @@
+@media screen and (max-width: 1080px) and (min-width: 480px) and (min-device-width: 480px) { 
+	.container {
+		max-width: 94vw;
+	}
+
+	.container > div {
+		margin-right: 2vw;
+	}
+
+	.container > div:last-child {
+		margin-right: 0vw;
+	}
+	
+	.column-1 {
+		width: 22vw;
+	}
+
+	.column-2 {
+		width: 46vw;
+	}
+}

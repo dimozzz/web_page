@@ -1,0 +1,17 @@
+@media all and (min-device-width: 480px) {
+	footer > .container {
+		margin-top: 50px;
+		border-top: 1px dotted rgb(131, 148, 148);
+	}	
+	.right {
+		text-align: right;
+	}
+
+	footer {
+
+		font-size: 8pt;
+		color: rgb(131, 148, 148);
+  
+		margin-bottom: 7px;
+	}
+}

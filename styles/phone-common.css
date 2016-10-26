@@ -1,0 +1,53 @@
+@media screen and (max-device-width: 480px) {
+	* {
+		padding: 0;
+		border: 0;
+		margin: 0;
+
+		-webkit-text-size-adjust:100% 
+	}
+
+	body {	
+		background-color: #f9f7ec;
+
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 30pt;
+
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+
+	}
+
+	main {
+		flex: 1;
+	}
+
+	a {
+		text-decoration: none;
+		color: #839494;
+	}
+
+	.container > * > * {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.container > * > .container > * > * {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	ul {
+		list-style-position: inside;
+		list-style-type: none;
+	}
+	
+	
+	ul > li {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}	
+}
+
+

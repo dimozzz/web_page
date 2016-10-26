@@ -1,0 +1,17 @@
+@article{HirSok2015,
+  author = {Hirsch, Edward A. and Sokolov, Dmitry},
+  title = {On the Probabilistic Closure of the Loose Unambiguous Hierarchy},
+  journal = {Inf. Process. Lett.},
+  issue_date = {September 2015},
+  volume = {115},
+  number = {9},
+  month = sep,
+  year = {2015},
+  issn = {0020-0190},
+  pages = {725--730},
+  numpages = {6},
+  url = {http://dx.doi.org/10.1016/j.ipl.2015.04.010},
+  doi = {10.1016/j.ipl.2015.04.010},
+  acmid = {2798505}
+} 
+

@@ -1,0 +1,22 @@
+@media all and (min-device-width: 480px) {
+
+	.table_title {
+		border-bottom: 1px dotted #839494;
+		border-top: 1px solid #839494;
+		padding: 10px 0 8px;
+		font-weight: bold;
+		margin-top: 35px;
+	}
+
+	.separator {
+		border-top: 1px dotted #839494;
+		margin-top: 50px;
+		margin-bottom: 35px;
+		margin-right: 0px;
+	}
+
+	.paper {
+		margin-top: 15px;
+	}
+
+}

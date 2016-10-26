@@ -1,0 +1,30 @@
+@media screen and (max-device-width: 480px) {
+	footer {
+		margin-left: 4%;
+		margin-right: 4%;
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 20pt;
+	}
+
+	footer .column-2 {
+		width: 50%;
+		float: left;
+	}
+
+
+	footer .container:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.right {
+		text-align: right;
+	}
+
+	footer > .container > * > * {
+		padding: 0;
+	}
+}
+

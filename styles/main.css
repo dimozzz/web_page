@@ -1,0 +1,64 @@
+@media all and (min-device-width: 480px) {
+	.header > .title {
+		font-size: 24pt;
+		color: #f7941e;
+	}
+
+	.header > .title > div {
+		font-size: 11pt;
+		color: black;
+	}
+
+	.years {	
+		margin-top: 20px;
+	}
+
+	.years a {
+		background-color: #839494;
+		color: white;
+		padding: 4px 5px;
+	}
+
+	.last-show {
+		border-bottom: 0;
+	}
+
+	.hide-item {
+		display: none;
+	}
+
+	.back {
+		display: none;
+	}
+
+	main .dotted li div {
+		font-size: 9pt;
+		margin-top: 8px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	main .dotted li div a {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	main .dotted li div:before {
+		display: inline-block;
+		content: '';
+		background-image: url(http://logic.pdmi.ras.ru/~knop/files/template.png);
+		min-width: 10px;
+		min-height: 15px;
+		width: 10px;
+		height: 15px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left;
+		padding-right: 5px;
+	}
+
+	main .read-more {
+		cursor: pointer;
+	}
+}
+
