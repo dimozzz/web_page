@@ -17,7 +17,7 @@ function show_papers(){
 	$EH = '<a href = "http://logic.pdmi.ras.ru/~hirsch">Edward A. Hirsch</a>';
 	$AK = '<a href = "http://logic.pdmi.ras.ru/~knop">Alexander Knop</a>';
 	$VO = '<a href = "http://logic.pdmi.ras.ru/~oparin">Vsevolod Oparin</a>';
-	$MG = '<a href = "http://www.cs.utoronto.ca/~mgoos/">Mika G&#214;&#214;s</a>';
+	$MG = '<a href = "http://www.cs.utoronto.ca/~mgoos/">Mika G&#246;&#246;s</a>';
 	$PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';
 	$AG = '<a href = "https://www.microsoft.com/en-us/research/people/garga/">Ankit Garg</a>';
 	$MS = 'Mikhail Slabodkin';
