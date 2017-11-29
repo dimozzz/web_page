@@ -17,15 +17,25 @@ function show_papers(){
 	$EH = '<a href = "http://logic.pdmi.ras.ru/~hirsch">Edward A. Hirsch</a>';
 	$AK = '<a href = "http://logic.pdmi.ras.ru/~knop">Alexander Knop</a>';
 	$VO = '<a href = "http://logic.pdmi.ras.ru/~oparin">Vsevolod Oparin</a>';
+	$MG = '<a href = "http://www.cs.utoronto.ca/~mgoos/">Mika G&#214;&#214;s</a>';
+	$PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';
+	$AG = '<a href = "https://www.microsoft.com/en-us/research/people/garga/">Ankit Garg</a>';
 	$MS = 'Mikhail Slabodkin';
 	$DS = 'Dmitry Sokolov';
 
+
 	cr_paper(
-		"$DI, $AK, Andrey Romashchenko, $DS",
-		'"On OBDD based algorithms and proof systems that dynamically change order of variables",',
-		'Submitted to STACS 2017'
+		"$AG, $MG, $PK, $DS",
+		'<https://eccc.weizmann.ac.il/report/2017/175/"> "Monotone Circuit Lower Bounds from Resolution",',
+		'Preprint'
 	);
 	
+	cr_paper(
+		"$DI, $AK, Andrey Romashchenko, $DS",
+		'<a href = "http://drops.dagstuhl.de/opus/volltexte/2017/6991/"> "On OBDD based algorithms and proof systems that dynamically change order of variables",',
+		'Appear in proceedings of STACS 2017'
+	);
+
 	cr_paper(
 		"$DI, $AK, $DS",
 		'<a href = "http://eccc.hpi-web.de/report/2015/174/"> "Complexity of distributions and average-case hardness"</a>,',
