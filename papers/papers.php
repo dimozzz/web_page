@@ -26,13 +26,13 @@ function show_papers(){
 
 	cr_paper(
 		"$AG, $MG, $PK, $DS",
-		'<https://eccc.weizmann.ac.il/report/2017/175/"> "Monotone Circuit Lower Bounds from Resolution",',
+		'<a href = "https://eccc.weizmann.ac.il/report/2017/175/"> "Monotone Circuit Lower Bounds from Resolution"</a>,',
 		'Preprint'
 	);
 	
 	cr_paper(
 		"$DI, $AK, Andrey Romashchenko, $DS",
-		'<a href = "http://drops.dagstuhl.de/opus/volltexte/2017/6991/"> "On OBDD based algorithms and proof systems that dynamically change order of variables",',
+		'<a href = "http://drops.dagstuhl.de/opus/volltexte/2017/6991/"> "On OBDD based algorithms and proof systems that dynamically change order of variables"</a>,',
 		'Appear in proceedings of STACS 2017'
 	);
 
@@ -45,7 +45,7 @@ function show_papers(){
 
 	cr_paper(
 		"$DI, $VO, $MS, $DS",
-		'<a href = "files/papers/php_res.pdf"> "Tight Lower Bounds on the Resolution Complexity of Perfect Matching Principles"</a>,',
+		'<a href = "../files/papers/php_res.pdf"> "Tight Lower Bounds on the Resolution Complexity of Perfect Matching Principles"</a>,',
 		'Fundamenta Informaticae, vol. 145, no. 3, pp. 229-242, 2016'
 	);
 
