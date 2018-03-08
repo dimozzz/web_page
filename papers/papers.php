@@ -20,14 +20,27 @@ function show_papers(){
 	$MG = '<a href = "http://www.cs.utoronto.ca/~mgoos/">Mika G&#246;&#246;s</a>';
 	$PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';
 	$AG = '<a href = "https://www.microsoft.com/en-us/research/people/garga/">Ankit Garg</a>';
+	$SB = '<a href = "http://www.math.ucsd.edu/~sbuss/">Sam Buss</a>';
 	$MS = 'Mikhail Slabodkin';
 	$DS = 'Dmitry Sokolov';
 
 
-	cr_paper(
+    cr_paper(
+		"$SB, $DI, $AK, $DS",
+		'<a href = "https://eccc.weizmann.ac.il/report/2018/041/"> "Reordering Rule Makes OBDD Proof Systems Stronger"</a>,',
+		'Preprint'
+	);
+
+    cr_paper(
 		"$AG, $MG, $PK, $DS",
 		'<a href = "https://eccc.weizmann.ac.il/report/2017/175/"> "Monotone Circuit Lower Bounds from Resolution"</a>,',
-		'Preprint'
+		'Appear in proceedings of STOC 2018'
+	);
+
+	cr_paper(
+		"$DS",
+		'<a href = "https://eccc.weizmann.ac.il/report/2016/202/"> "Dag-like Communication and Its Applications"</a>,',
+		'Appear in proceedings of CSR 2017'
 	);
 	
 	cr_paper(
