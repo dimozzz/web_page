@@ -21,15 +21,27 @@ function show_papers(){
 	$PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';
 	$AG = '<a href = "https://www.microsoft.com/en-us/research/people/garga/">Ankit Garg</a>';
 	$SB = '<a href = "http://www.math.ucsd.edu/~sbuss/">Sam Buss</a>';
+    $RR = '<a href = "https://www.cs.toronto.edu/~robere/">Robert Robere</a>';
 	$MS = 'Mikhail Slabodkin';
 	$DS = 'Dmitry Sokolov';
 
+    cr_paper(
+		"$SB, $DI, $AK, $DS",
+		'Breaking Through the Reordering Obstacle in OBDD Proof Systems,',
+		'In progress'
+    );
+
+    cr_paper(
+		"$MG, $PK, $RR, $DS",
+		'<a href = "https://eccc.weizmann.ac.il/report/2018/163/"> "Adventures in Monotone Complexity and TFNP"</a>,',
+		'Appear in proceedings of ITCS 2019'
+	);
 
     cr_paper(
 		"$SB, $DI, $AK, $DS",
 		'<a href = "https://eccc.weizmann.ac.il/report/2018/041/"> "Reordering Rule Makes OBDD Proof Systems Stronger"</a>,',
-		'Preprint'
-	);
+		'Appear in proceedings of CCC 2018'
+    );
 
     cr_paper(
 		"$AG, $MG, $PK, $DS",
