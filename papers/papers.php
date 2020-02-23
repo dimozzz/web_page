@@ -13,17 +13,41 @@
 }
 
 function show_papers(){
-	$DI = '<a href = "http://logic.pdmi.ras.ru/~dmitrits">Dmitry Itsykson</a>';
-	$EH = '<a href = "http://logic.pdmi.ras.ru/~hirsch">Edward A. Hirsch</a>';
-	$AK = '<a href = "http://logic.pdmi.ras.ru/~knop">Alexander Knop</a>';
-	$VO = '<a href = "http://logic.pdmi.ras.ru/~oparin">Vsevolod Oparin</a>';
-	$MG = '<a href = "http://www.cs.utoronto.ca/~mgoos/">Mika G&#246;&#246;s</a>';
-	$PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';
-	$AG = '<a href = "https://www.microsoft.com/en-us/research/people/garga/">Ankit Garg</a>';
-	$SB = '<a href = "http://www.math.ucsd.edu/~sbuss/">Sam Buss</a>';
+    $JN = '<a href = "https://www.csc.kth.se/~jakobn/">Jakob Nordstr&#246;m</a>';
+    $DI = '<a href = "http://logic.pdmi.ras.ru/~dmitrits">Dmitry Itsykson</a>';
+    $EH = '<a href = "http://logic.pdmi.ras.ru/~hirsch">Edward A. Hirsch</a>';
+    $AK = '<a href = "https://www.math.ucsd.edu/~aknop/">Alexander Knop</a>';
+    $VO = '<a href = "http://logic.pdmi.ras.ru/~oparin">Vsevolod Oparin</a>';
+    $MG = '<a href = "https://theory.stanford.edu/~mika//">Mika G&#246;&#246;s</a>';
+    $PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';   
+    $AG = '<a href = "https://ankit-garg-6.github.io/">Ankit Garg</a>';
+    $SB = '<a href = "http://www.math.ucsd.edu/~sbuss/">Sam Buss</a>';
     $RR = '<a href = "https://www.cs.toronto.edu/~robere/">Robert Robere</a>';
-	$MS = 'Mikhail Slabodkin';
-	$DS = 'Dmitry Sokolov';
+    $KR = '<a href = "https://people.kth.se/~kilianr/">Kilian Risse</a>';
+    $GL = '<a href = "https://guillaume-lagarde.github.io/">Guillaume Lagarde</a>';
+    $JS = '<a href = "https://www.kth.se/profile/josephsw">Joseph Swernofsky</a>';
+    $SFDR = '<a href = "http://www.csc.kth.se/~sfdr/">Susanna F. de Rezende</a>';
+    $MS = 'Mikhail Slabodkin';
+    $DS = 'Dmitry Sokolov';
+
+
+    cr_paper(
+		"$DS",
+		'<a href = "https://eccc.weizmann.ac.il/report/2020/012/"> "(Semi)Algebraic Proofs over {-1, +1} Variables"</a>,',
+		'Appear in proceedings of STOC 2020'
+	);
+
+    cr_paper(
+		"$SFDR", "$JN", "$KR", "$DS",
+		'<a href = "https://eccc.weizmann.ac.il/report/2019/174/"> "Exponential Lower Bounds for Weak Pigeonhole Principle and Perfect Matching Formulas over Sparse Graphs"</a>,',
+		'In progress'
+	);
+
+    cr_paper(
+		"$GL", "$JN", "$DS", "$JS"
+		'<a href = "https://doi.org/10.4230/LIPIcs.ITCS.2020.72"> "Trade-offs Between Size and Degree in Polynomial Calculus"</a>,',
+		'Appear in proceedings of ITCS 2020'
+	);
 
     cr_paper(
 		"$SB, $DI, $AK, $DS",
