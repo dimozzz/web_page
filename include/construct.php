@@ -1,7 +1,7 @@
 <? function start_page($show = 0){
 
 	$main_add = '/home/sokolov/public_html/';
-	$st_url = 'http://logic.pdmi.ras.ru/~sokolov/styles';
+	$st_url = 'https://logic.pdmi.ras.ru/~sokolov/styles';
 	$st_text = 'rel = "stylesheet" type = "text/css" media = "all"';
 ?>
 

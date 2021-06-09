@@ -24,7 +24,7 @@
 		<div class = "section">
 			Menu
 		</div>
-		<ul class = "dotted">
+        <ul class = "dotted">
 			<li>
 				<a href = "http://logic.pdmi.ras.ru/~sokolov/papers/"> Papers, talks and posters</a>
 			</li>
@@ -35,14 +35,14 @@
 	</div>
 	<div class = "column-3">
 		<div class = "section">
-			Teaching
+			For students
 		</div>
-		<ul class="dotted">
+        <ul class = "dotted">
 			<li>
-				<a href = "http://mit.spbau.ru/"> St. Petersburg Academic University</a>
+				<a href = "http://logic.pdmi.ras.ru/~sokolov/expanders/"> Expanders and error-correcting codes</a>
 			</li>
-			<li>
-				<a href = "http://compscicenter.ru/"> Computer Science Center</a>
+            <li>
+				<a href = "http://logic.pdmi.ras.ru/~sokolov/communication/"> Communication complexity</a>
 			</li>
 		</ul>
 	</div>

@@ -18,18 +18,50 @@ function show_papers(){
     $EH = '<a href = "http://logic.pdmi.ras.ru/~hirsch">Edward A. Hirsch</a>';
     $AK = '<a href = "https://www.math.ucsd.edu/~aknop/">Alexander Knop</a>';
     $VO = '<a href = "http://logic.pdmi.ras.ru/~oparin">Vsevolod Oparin</a>';
-    $MG = '<a href = "https://theory.stanford.edu/~mika//">Mika G&#246;&#246;s</a>';
+    $MG = '<a href = "https://theory.epfl.ch/mika/">Mika G&#246;&#246;s</a>';
     $PK = '<a href = "http://www.mit.edu/~pritish/">Pritish Kamath</a>';   
     $AG = '<a href = "https://ankit-garg-6.github.io/">Ankit Garg</a>';
     $SB = '<a href = "http://www.math.ucsd.edu/~sbuss/">Sam Buss</a>';
-    $RR = '<a href = "https://www.cs.toronto.edu/~robere/">Robert Robere</a>';
+    $RR = '<a href = "https://www.cs.mcgill.ca/~robere/">Robert Robere</a>';
     $KR = '<a href = "https://people.kth.se/~kilianr/">Kilian Risse</a>';
     $GL = '<a href = "https://guillaume-lagarde.github.io/">Guillaume Lagarde</a>';
     $JS = '<a href = "https://www.kth.se/profile/josephsw">Joseph Swernofsky</a>';
+    $TP = '<a href = "https://www.cs.toronto.edu/~toni/">Toniann Pitassi</a>';
     $SFDR = '<a href = "http://www.csc.kth.se/~sfdr/">Susanna F. de Rezende</a>';
+    $ML = '<a href = "https://www.massimolauria.net/">Susanna F. de Rezende</a>';
+    $AN = 'Anastasia Sofronova';
     $MS = 'Mikhail Slabodkin';
     $DS = 'Dmitry Sokolov';
 
+    cr_paper(
+		"$DS",
+        '<a href = "https://eccc.weizmann.ac.il/report/2021/076/"> "Pseudorandom Generators, Resolution and Heavy Width"</a>,',
+		'In progress'
+    );
+
+    cr_paper(
+		"$SFDR, $ML, $JN, $DS",
+        'The Power of Negative Reasoning,',
+		'Appear in proceedings of CCC 2021'
+    );
+
+    cr_paper(
+		"$AN, $DS",
+        '<a href = "https://eccc.weizmann.ac.il/report/2021/028/"> "Branching Programs with Bounded Repetitions and Flow Formulas"</a>,',
+		'Appear in proceedings of CCC 2021'
+    );
+
+    cr_paper(
+		"$SFDR, $MG, $JN, $TP, $RR, $DS",
+        '<a href = "https://eccc.weizmann.ac.il/report/2020/064/"> "Automating Algebraic Proof Systems is NP-Hard"</a>,',
+		'Appear in proceedings of STOC 2021'
+    );
+
+    cr_paper(
+		"$SB, $DI, $AK, $DS",
+        '<a href = "https://eccc.weizmann.ac.il/report/2020/073/"> "Lower Bounds on OBDD Proofs with Several Orders"</a>,',
+		'Appear in ACM Transactions on Computational Logic (TOCL)'
+    );
 
     cr_paper(
 		"$DS",
@@ -38,22 +70,16 @@ function show_papers(){
 	);
 
     cr_paper(
-		"$SFDR", "$JN", "$KR", "$DS",
+		"$SFDR, $JN, $KR, $DS",
 		'<a href = "https://eccc.weizmann.ac.il/report/2019/174/"> "Exponential Lower Bounds for Weak Pigeonhole Principle and Perfect Matching Formulas over Sparse Graphs"</a>,',
-		'In progress'
+		'Appear in proceedings of CCC 2020'
 	);
 
     cr_paper(
-		"$GL", "$JN", "$DS", "$JS"
+		"$GL, $JN, $DS, $JS",
 		'<a href = "https://doi.org/10.4230/LIPIcs.ITCS.2020.72"> "Trade-offs Between Size and Degree in Polynomial Calculus"</a>,',
 		'Appear in proceedings of ITCS 2020'
 	);
-
-    cr_paper(
-		"$SB, $DI, $AK, $DS",
-		'Breaking Through the Reordering Obstacle in OBDD Proof Systems,',
-		'In progress'
-    );
 
     cr_paper(
 		"$MG, $PK, $RR, $DS",
